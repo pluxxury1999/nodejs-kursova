@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/zero.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>main page</title>
+</head>
+<body>
+    <p class="greeting">Welcome, <span class="username"></span>!</p>
+    <button class="settings">Settings</button>
+    <div class="form_block isActive">
+        <form action="" method="POST">
+            <label for="old_password">Old password</label>
+            <input class="old_password" name="old_password" type="password">
+            <label for="new_password">New password</label>
+            <input class="new_password" name="new_password" type="password">
+            <label for="new_password_repeat">Repeat new password</label>
+            <input class="new_password_repeat" name="new_password_repeat" type="password">
+            <button class="submit_btn" type="submit">Change</button>
+        </form>
+    </div>
+    <p class="error_block"></p>
+    <script src="\js\main.js"></script>
+</body>
+</html>

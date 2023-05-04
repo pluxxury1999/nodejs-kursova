@@ -1,0 +1,73 @@
+.auth__container {
+    background-color: red;
+    margin: 50px auto 0 auto;
+    width: 300px;
+    max-height: 600px;
+    border-radius: 30px;
+}
+
+.auth__block {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links__block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.auth__form {
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+button {
+    display: block;
+    margin: 15px auto 0 auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+}
+
+p {
+    color: white;
+}
+
+input {
+    display: flex;
+    align-items: center;
+}
+
+.err__block {
+    color: black;
+    text-align: center;
+}

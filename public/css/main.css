@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+.greeting {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 5px;
+}
+
+.form_block {
+    font-weight: normal;
+}
+
+form {
+    margin-top: 25px;
+}
+
+.isActive {
+    display: none;
+}
+
+.submit_btn {
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+}
